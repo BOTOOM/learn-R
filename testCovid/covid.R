@@ -22,6 +22,7 @@ pie(frec.atencion)
 ## esto debe ser para Rstudio en lugar de acceder con el nombre d ela palabra como por ejemplo 'Estado'
 # debe usarse dat[,"Estado"]
 
+print(table(dat[,"Sexo"],Estado))
 print(table(dat[,"Sexo"],dat[,"Estado"]))
 hist(dat[,"Edad"])
 stem(dat[,"Edad"])
