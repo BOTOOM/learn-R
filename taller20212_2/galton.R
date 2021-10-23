@@ -1,21 +1,27 @@
+#cantidad de niveles
 niveles <- 5
-casillas <- numeric(niveles + 1)
+# probabilidad de caer a la izquierda
 probabilidad_izquierda <- 1 / 2
+# probabilidad de caer a la derecha
 probabilidad_derecha <- 1 / 2
+# se crean las casillas
+casillas <- numeric(niveles + 1)
 for (i in 0:niveles) {
     casillas[i + 1] <- i
 }
+# se calcula el total de rutas posibles
 total_rutas <- 2^niveles
 cat(
     "Para", niveles, "niveles el numero total de Rutas:",
     total_rutas <- 2^niveles,
     "\n"
 )
+#funcion de combinatoria
 combinatoria <- function(n, x) {
     resultado <- (factorial(n)) / (factorial(x) * factorial(n - x))
     return(resultado)
 }
-
+#calcula cantidad de rutas por casilla y la probabilidad de caer en la casilla
 for (i in casillas) {
     probabilidad <- combinatoria(niveles, i) * (probabilidad_izquierda^i) * (probabilidad_derecha^(niveles - i))
     ruta_casilla <- probabilidad * total_rutas
