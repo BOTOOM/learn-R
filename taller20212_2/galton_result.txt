@@ -1,0 +1,13 @@
+Para 5 niveles el numero total de Rutas: 32 
+La casilla 0 tiene: 1 trayectorias 
+La probabilidad de que la bola caiga en la cassilla 0 es de: 0.03125 
+La casilla 1 tiene: 5 trayectorias 
+La probabilidad de que la bola caiga en la cassilla 1 es de: 0.15625 
+La casilla 2 tiene: 10 trayectorias 
+La probabilidad de que la bola caiga en la cassilla 2 es de: 0.3125 
+La casilla 3 tiene: 10 trayectorias 
+La probabilidad de que la bola caiga en la cassilla 3 es de: 0.3125 
+La casilla 4 tiene: 5 trayectorias 
+La probabilidad de que la bola caiga en la cassilla 4 es de: 0.15625 
+La casilla 5 tiene: 1 trayectorias 
+La probabilidad de que la bola caiga en la cassilla 5 es de: 0.03125
